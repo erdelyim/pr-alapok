@@ -90,7 +90,55 @@ print(a.split(",")) # returns ['Hello', ' World!']
 lista = a.split(",")
 print(lista[3])
 """
+"""
 a = "44;341;223;333;"
 a.split(",")
 lista = a.split(";")
 print(lista[3])
+"""
+"""
+a = "Hello"
+b = "Wolrd"
+
+c = a + " " + b
+print(c)
+"""
+"""
+age = 36
+txt = "My name is John, I am " + age
+print(txt)
+"""
+"""
+quantity = 3
+itemno = 567
+price = 49.95
+myorder = "I want {} pieces of item {} for {} dollars."
+print(myorder.format(quantity, itemno, price))
+"""
+"""
+txt = "We are the so-called \"Vikings\"from the north."
+print(txt)
+"""
+"""
+print("BATMAN", end="\n\n\n") 
+print("SUPERMAN", end="\t")
+print("SPIDERMAN")
+"""
+"""
+szam= 1
+while szam != 101:
+    print(szam)
+    szam = szam + 1 
+print("A program vége!")
+# 0..99
+"""
+"""
+szam= 1
+while True:
+    szam += 1
+    print(szam)
+"""
+szam = 0
+while szam < 100:
+    szam = szam + 1 
+    print(szam)
