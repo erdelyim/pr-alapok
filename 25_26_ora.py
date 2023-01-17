@@ -66,6 +66,30 @@ lista = ["alma-0" , "banan-1" , "cseresznye-2" ,"narancs-3" , "kivi-4" , "szől�
 lista.insert(2, "körte")
 print(lista)
 """
+"""
 lista = ["alma", "banan", "cseresznye"]
 lista.append("körte")
 print(lista)
+"""
+"""
+szo1 = 'alma'
+szo2 = 'fa'
+print(szo1 + szo2)
+"""
+"""
+szoveg1 = 'Adj meg '
+szoveg2 = 'egy szamot!'
+print(szoveg1, szoveg2)
+
+x = 9
+y = 2
+print('9 % 2 = ', x % y)
+
+# Az input függvénnyel ez azonban nem lehetséges, hibát eredményez!
+input(szoveg1, szoveg2) # HIBÁS!!!
+"""
+
+    
+  
+      
+  
