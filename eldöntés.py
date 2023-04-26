@@ -17,3 +17,4 @@ else:
     print('Nincs a listában hárommmal osztható szám.')
 
 print(találat)
+
